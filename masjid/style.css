@@ -1,0 +1,431 @@
+
+* {box-sizing: border-box;
+   padding: 0;
+   margin:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 250, 250);
+    color: #333;
+    line-height: 1.6;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    color:#333;
+    text-decoration: none;
+}
+ 
+h1,h2 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+p {
+    margin: 10PX 0;
+
+}
+
+img {
+    width: 100%;
+}
+
+/*navbar*/
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    color: #fff;
+    opacity: 0.6;
+    width: 100%;
+    height:70px;
+    position: fixed;
+    top: 0px;
+    padding: 0 30px;
+
+}
+#navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    font-family:bavereen;
+}
+#navbar a:hover {
+    border-bottom: #0cf118 2px solid;
+}
+
+
+
+#navbar ul {
+    display: flex;
+}
+
+.hero {
+   background: url('images/picture.jpeg')no-repeat repeat center center/cover;
+    height: 100vh;
+    position:relative;
+    color: #fff;
+}
+
+#logo {
+
+    height: 60px;px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba (0,0,0,0.6);
+}
+
+
+
+
+.flex-columns.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns .column-1,
+.flex-columns .column-2{
+    height: 100%;
+
+}
+
+
+
+.container {
+    background:url('images/backgrey.png');
+    padding-top: 70px;
+    max-width: 2000px;
+    margin:0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+.image {
+
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    padding-top:100px;
+ 
+    
+}
+.about-pic{
+   border-radius: 50%;
+   
+}
+p{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 100px;
+    text-align: justify;
+
+}
+
+.para{
+
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.hone{
+    color:whitesmoke ;
+}
+
+
+
+
+
+
+ .contact-container{
+    max-width: 1200px;
+    margin: auto;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    background-color:#363953;
+    box-shadow: 0 0 1rem hsla(0 0 0 /16%) ;
+    overflow: hidden;
+
+
+
+
+
+ }
+
+.form-container{
+    padding:20px ;
+
+
+}
+ .form-container h3{
+   font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    
+ }
+ h3{
+    color: whitesmoke;
+ }
+
+ 
+ .contact-form {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+ }
+
+ .contact-form{
+    display: grid;
+    row-gap: 1rem;
+ }
+
+ .contact-form input,.contact-form textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #2c2f48;
+    padding: 10px;
+    font-family: 0.9rem;
+    color: #fff;
+    border-radius: 0.4;
+    margin-left: 10px;
+ }
+
+ .contact-form textarea{
+    resize: none;
+    height: 200px;
+ }
+
+ .contact-form .send-button{
+    border: none;
+    outline: none;
+    background: #00dbde;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+
+ }
+ 
+ .contact-form .send-button:hover{
+    background: hsl(181, 1005, 44%);
+    transition: 0.3s all linear;
+ }
+ .map iframe{
+    width: 100%;
+    height: 100%;
+ }
+
+
+ footer{
+    background-color: rgb(77, 74, 74);
+    height: 100px;
+    
+  
+
+ }
+
+ .paypal {
+     
+    text-align: center;
+ }
+    
+
+
+.video-container{
+   text-align: center;
+   max-width: 1200px;
+   margin: auto;
+  padding: 40px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #70e4ae;
+ }
+
+    .paypal{
+   text-align: center;
+   max-width: 1200px;
+   height: 700px;
+   margin: auto;
+  padding: 40px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #70e4ae;
+  
+ 
+ }
+ .paypal h1 {
+    padding-bottom: 200px;
+    color: #fff;
+    
+ }
+
+    .paypal1{
+        border: 1px solid wheat;
+        height: 100px;
+        width:300px;
+        margin: auto;
+        background-color: rgb(240, 203, 20);
+    
+    }
+#pay{
+    margin-top: 30px;
+   
+}
+.add{
+    text-align: center;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+   padding-top: 30px;
+}
+
+footer span{
+    color: #fff;
+}
+
+.calender-container {
+    width:600px;
+    margin: auto;
+
+
+}
+
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(252, 250, 250);
+        color: #f33232;
+        line-height: 1.6;
+    }
+        .hero {
+            background: url('images/picture.jpeg')no-repeat repeat center center/cover;
+             height: 100vh;
+             position:relative;
+             color: #fff;
+         }
+         .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba (0,0,0,0.6);
+        }
+    
+        video-container{
+            text-align: center;
+            max-width: 600px;
+            margin: auto;
+           padding: 40px;
+           margin-bottom: 30px;
+           border: none;
+          
+          }
+         
+             .paypal{
+            text-align: center;
+            max-width: 600px;
+            height: 700px;
+            margin: auto;
+           padding: 40px;
+           margin-bottom: 30px;
+           border: none;
+           background-color: #70e4ae;
+           
+         
+      }
+      .para{
+    
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+    
+    #navbar {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:black;
+        color: #fff;
+        opacity: 0.6;
+        width: 100%;
+        height:70px;
+        position: fixed;
+        top: 0px;
+        padding-right: 600px;
+    
+    }
+
+
+
+    #navbar a {
+        color: #fff;
+        padding: 3px 10px;
+        font-family:bavereen;
+    }
+    #quran-vid {
+       max-width: 600px;
+       height: 350px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    }
+    
+    
